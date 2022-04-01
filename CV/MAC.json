@@ -7,12 +7,616 @@
   "aboutMe": {
     "profile": {
       "name": "Pablo",
-      "surnames": "Lozano Fuentes",
-      "title": "Java Software engineer",
-      "description": "",
+      "surnames": "Lozano",
+      "title": "Software Engineer",
+      "description": "I'm a experienced Java and Javascript developer. I love experimenting with new technologies and methodologies. I like to share any piece of knowledge/information with colleagues and receive feedback from them, that's why I am here",
+      "avatar": {
+        "link": "https://www.gravatar.com/avatar/b942d91f7affb127a69d54c71dd26580?s=136&r=PG&d=https://i.stack.imgur.com/T119o.png"
+      },
       "location": {
-        "notes": "Málaga"
+        "country": "ES",
+        "region": "Andalusia",
+        "municipality": "Málaga",
+        "notes": "Autocompleted using Google Maps API"
       }
+    },
+    "relevantLinks": [
+      {
+        "type": "twitter",
+        "URL": "https://twitter.com/PLoz_"
+      }
+    ],
+    "interestingFacts": [
+      {
+        "topic": "Favorite editor",
+        "fact": "Visual Studio Code"
+      },
+      {
+        "topic": "First computer",
+        "fact": "PC"
+      }
+    ],
+    "recommendations": [
+      {
+        "title": "Secrets of the JavaScript Ninja",
+        "type": "reading",
+        "URL": "http://www.amazon.com/Secrets-JavaScript-Ninja-John-Resig/dp/193398869X",
+        "authors": [
+          {
+            "name": "John",
+            "surnames": "Resig",
+            "title": "Author"
+          },
+          {
+            "name": "Bear",
+            "surnames": "Bibeault",
+            "title": "Author"
+          }
+        ]
+      },
+      {
+        "title": "Head First Servlets and JSP: Passing the Sun Certified Web Component Developer ...",
+        "type": "reading",
+        "URL": "http://www.amazon.com/Head-First-Servlets-JSP-Certified/dp/0596516681",
+        "authors": [
+          {
+            "name": "Bryan",
+            "surnames": "Basham",
+            "title": "Author"
+          },
+          {
+            "name": "Kathy",
+            "surnames": "Sierra",
+            "title": "Author"
+          },
+          {
+            "name": "Bert",
+            "surnames": "Bates",
+            "title": "Author"
+          }
+        ]
+      },
+      {
+        "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+        "type": "reading",
+        "URL": "http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612",
+        "authors": [
+          {
+            "name": "Erich",
+            "surnames": "Gamma",
+            "title": "Author"
+          },
+          {
+            "name": "Richard",
+            "surnames": "Helm",
+            "title": "Author"
+          },
+          {
+            "name": "Ralph",
+            "surnames": "Johnson",
+            "title": "Author"
+          },
+          {
+            "name": "John",
+            "surnames": "Vlissides",
+            "title": "Author"
+          }
+        ]
+      },
+      {
+        "title": "The introduction to Reactive Programming you've been missing · GitHub",
+        "type": "reading",
+        "URL": "https://gist.github.com/staltz/868e7e9bc2a7b8c1f754",
+        "authors": [
+          {
+            "name": "Gist",
+            "surnames": "Gist",
+            "title": "Author"
+          }
+        ],
+        "summary": "The introduction to Reactive Programming you've been missing"
+      },
+      {
+        "title": "Why we should stop using Grunt & Gulp",
+        "type": "reading",
+        "URL": "http://blog.keithcirkel.co.uk/why-we-should-stop-using-grunt/",
+        "authors": [
+          {
+            "name": "Keith",
+            "surnames": "Cirkel",
+            "title": "Author"
+          }
+        ],
+        "summary": "If you're building a modern JavaScript app or site, there's a good chance you're using Grunt or Gulp. Let me cover why I think these are bad choices..."
+      }
+    ]
+  },
+  "experience": {
+    "jobs": [
+      {
+        "organization": {
+          "name": "The Workshop",
+          "URL": "https://theworkshop.com/",
+          "image": {
+            "alt": "The Workshop",
+            "link": "https://i.stack.imgur.com/aYhKS.png"
+          }
+        },
+        "roles": [
+          {
+            "name": "Software Engineer",
+            "startDate": "2020-10-01",
+            "competences": [
+              {
+                "name": "java",
+                "type": "technology"
+              },
+              {
+                "name": "typescript",
+                "type": "technology"
+              },
+              {
+                "name": "angular",
+                "type": "technology"
+              },
+              {
+                "name": "git",
+                "type": "technology"
+              },
+              {
+                "name": "jira",
+                "type": "technology"
+              },
+              {
+                "name": "spring-boot",
+                "type": "technology"
+              },
+              {
+                "name": "docker",
+                "type": "technology"
+              },
+              {
+                "name": "kubernetes",
+                "type": "technology"
+              },
+              {
+                "name": "fedora",
+                "type": "technology"
+              },
+              {
+                "name": "node.js",
+                "type": "technology"
+              },
+              {
+                "name": "javascript",
+                "type": "technology"
+              },
+              {
+                "name": "junit5",
+                "type": "technology"
+              },
+              {
+                "name": "scala-gatling",
+                "type": "technology"
+              },
+              {
+                "name": "maven-3",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Ortoplus"
+        },
+        "roles": [
+          {
+            "name": "Software developer",
+            "challenges": [
+              {
+                "description": "Software engineer + deployments + tech lead"
+              }
+            ],
+            "startDate": "2016-10-01",
+            "finishDate": "2020-09-30",
+            "competences": [
+              {
+                "name": "java",
+                "type": "technology"
+              },
+              {
+                "name": "javascript",
+                "type": "technology"
+              },
+              {
+                "name": "postgresql",
+                "type": "technology"
+              },
+              {
+                "name": "jquery",
+                "type": "technology"
+              },
+              {
+                "name": "ubuntu",
+                "type": "technology"
+              },
+              {
+                "name": "spring",
+                "type": "technology"
+              },
+              {
+                "name": "spring-mvc",
+                "type": "technology"
+              },
+              {
+                "name": "angular",
+                "type": "technology"
+              },
+              {
+                "name": "twitter-bootstrap",
+                "type": "technology"
+              },
+              {
+                "name": "typescript",
+                "type": "technology"
+              },
+              {
+                "name": "tomcat8",
+                "type": "technology"
+              },
+              {
+                "name": "nginx",
+                "type": "technology"
+              },
+              {
+                "name": "spring-boot",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Adaptive Financial Consulting"
+        },
+        "roles": [
+          {
+            "name": "Software Developer",
+            "challenges": [
+              {
+                "description": "Front end developer"
+              }
+            ],
+            "startDate": "2016-06-01",
+            "finishDate": "2016-08-31",
+            "competences": [
+              {
+                "name": "typescript",
+                "type": "technology"
+              },
+              {
+                "name": "reactjs",
+                "type": "technology"
+              },
+              {
+                "name": "electron",
+                "type": "technology"
+              },
+              {
+                "name": "rxjs",
+                "type": "technology"
+              },
+              {
+                "name": "javascript",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "IGT",
+          "URL": "http://www.igt.com",
+          "image": {
+            "alt": "IGT",
+            "link": "https://crunchbase-production-res.cloudinary.com/image/upload/h_90/v1476441943/ipgldkaocwswrtfpk6fg.png"
+          }
+        },
+        "roles": [
+          {
+            "name": "Sowfware Engineer",
+            "challenges": [
+              {
+                "description": "As Java developer I've been working on game management systems for several lottery companies. As a Javascript developer, I've developed several instant games using Javascript and an internal framework which allows in-game purchases"
+              }
+            ],
+            "startDate": "2011-09-01",
+            "finishDate": "2016-07-31",
+            "competences": [
+              {
+                "name": "java",
+                "type": "technology"
+              },
+              {
+                "name": "jboss7.x",
+                "type": "technology"
+              },
+              {
+                "name": "javascript",
+                "type": "technology"
+              },
+              {
+                "name": "spring",
+                "type": "technology"
+              },
+              {
+                "name": "html5-canvas",
+                "type": "technology"
+              },
+              {
+                "name": "angularjs",
+                "type": "technology"
+              },
+              {
+                "name": "jquery",
+                "type": "technology"
+              },
+              {
+                "name": "node.js",
+                "type": "technology"
+              },
+              {
+                "name": "maven-3",
+                "type": "technology"
+              },
+              {
+                "name": "phaser-framework",
+                "type": "technology"
+              },
+              {
+                "name": "spring-mvc",
+                "type": "technology"
+              },
+              {
+                "name": "spring-batch",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Comet Global Consulting"
+        },
+        "roles": [
+          {
+            "name": "Java Consultant",
+            "challenges": [
+              {
+                "description": "I was part of the maintenance team for the CRM solution of SKY Plc (formerly British Sky Broadcasting Group), fixing bugs and adding new features."
+              }
+            ],
+            "startDate": "2010-01-01",
+            "finishDate": "2011-08-31",
+            "competences": [
+              {
+                "name": "java",
+                "type": "technology"
+              },
+              {
+                "name": "websphere",
+                "type": "technology"
+              },
+              {
+                "name": "oracle",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "publicArtifacts": [
+      {
+        "details": {
+          "name": "Core Spring - Score: 218/300",
+          "image": {
+            "alt": "Title: Core Spring - Score: 218/300",
+            "link": "https://i.stack.imgur.com/Xc4iu.png"
+          }
+        },
+        "type": "achievement",
+        "publishingDate": "2018-11-01",
+        "relatedCompetences": [
+          {
+            "name": "spring",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "Angular - Score: 216/300",
+          "image": {
+            "alt": "Title: Angular - Score: 216/300",
+            "link": "https://i.stack.imgur.com/e0Wiv.png"
+          }
+        },
+        "type": "achievement",
+        "publishingDate": "2018-06-01",
+        "relatedCompetences": [
+          {
+            "name": "angular",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "Top 5% at Stack Overflow answers",
+          "description": "This user is part of the top 5% Stack Overflow answerers in these technologies"
+        },
+        "type": "achievement",
+        "publishingDate": "2022-03-04",
+        "relatedCompetences": [
+          {
+            "name": "java",
+            "type": "technology"
+          },
+          {
+            "name": "javascript",
+            "type": "technology"
+          },
+          {
+            "name": "rest",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "Top 10% at Stack Overflow answers",
+          "description": "This user is part of the top 10% Stack Overflow answerers in these technologies"
+        },
+        "type": "achievement",
+        "publishingDate": "2022-03-04",
+        "relatedCompetences": [
+          {
+            "name": "angular",
+            "type": "technology"
+          },
+          {
+            "name": "arrays",
+            "type": "technology"
+          },
+          {
+            "name": "google-chrome",
+            "type": "technology"
+          },
+          {
+            "name": "html",
+            "type": "technology"
+          },
+          {
+            "name": "jquery",
+            "type": "technology"
+          },
+          {
+            "name": "json",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "Top 20% at Stack Overflow answers",
+          "description": "This user is part of the top 20% Stack Overflow answerers in these technologies"
+        },
+        "type": "achievement",
+        "publishingDate": "2022-03-04",
+        "relatedCompetences": [
+          {
+            "name": "ecmascript-6",
+            "type": "technology"
+          },
+          {
+            "name": "node.js",
+            "type": "technology"
+          },
+          {
+            "name": "regex",
+            "type": "technology"
+          },
+          {
+            "name": "spring",
+            "type": "technology"
+          }
+        ]
+      }
+    ]
+  },
+  "knowledge": {
+    "studies": [
+      {
+        "studyType": "certification",
+        "degreeAchieved": true,
+        "name": "Sun Java Certificated Developer",
+        "startDate": "2007-01-01",
+        "finishDate": "2007-01-01",
+        "institution": {
+          "name": "Sun Java Certificated Developer"
+        },
+        "linkedCompetences": [
+          {
+            "name": "java",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "Systems Engineering",
+        "startDate": "1996-01-01",
+        "finishDate": "2005-01-01",
+        "description": "I passed all courses. However I did not complete this degree due to the lack of a thesis/Final project",
+        "institution": {
+          "name": "Universidad de Málaga (UMA)"
+        }
+      }
+    ]
+  },
+  "careerPreferences": {
+    "contact": {
+      "publicProfiles": [
+        {
+          "type": "other",
+          "URL": "https://twitter.com/PLoz_"
+        }
+      ]
+    },
+    "preferences": {
+      "preferredCompetences": [
+        {
+          "name": "java",
+          "type": "technology"
+        },
+        {
+          "name": "angular",
+          "type": "technology"
+        },
+        {
+          "name": "git",
+          "type": "technology"
+        },
+        {
+          "name": "spring-boot",
+          "type": "technology"
+        },
+        {
+          "name": "junit5",
+          "type": "technology"
+        }
+      ],
+      "discardedCompetences": [
+        {
+          "name": "sap",
+          "type": "technology"
+        },
+        {
+          "name": "business-objects",
+          "type": "technology"
+        },
+        {
+          "name": "php",
+          "type": "technology"
+        }
+      ]
     }
   }
 }
