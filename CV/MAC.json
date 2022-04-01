@@ -9,21 +9,23 @@
       "name": "Pablo",
       "surnames": "Lozano",
       "title": "Software Engineer",
-      "description": "I'm a experienced Java and Javascript developer. I love experimenting with new technologies and methodologies. I like to share any piece of knowledge/information with colleagues and receive feedback from them, that's why I am here",
+      "description": "I'm a experienced Java and Javascript/Typescript developer. I love experimenting with new technologies and methodologies. I like to share any piece of knowledge/information with colleagues and receive feedback from them, that's why I am here",
       "avatar": {
-        "link": "https://www.gravatar.com/avatar/b942d91f7affb127a69d54c71dd26580?s=136&r=PG&d=https://i.stack.imgur.com/T119o.png"
+        "alt": "profile-image",
+        "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/04/01/43c454fa-ffad-454b-868a-35ba19fceba3_b942d91f7affb127a69d.b942d91f7affb127a69d54c71dd26580"
       },
       "location": {
-        "country": "ES",
-        "region": "Andalusia",
-        "municipality": "Málaga",
-        "notes": "Autocompleted using Google Maps API"
+        "notes": "Málaga, Andalusia, ES"
       }
     },
     "relevantLinks": [
       {
         "type": "twitter",
         "URL": "https://twitter.com/PLoz_"
+      },
+      {
+        "type": "other",
+        "URL": "https://stackoverflow.com/users/1919228/pablo-lozano"
       }
     ],
     "interestingFacts": [
@@ -33,7 +35,7 @@
       },
       {
         "topic": "First computer",
-        "fact": "PC"
+        "fact": "Spectrum Sinclair +2"
       }
     ],
     "recommendations": [
@@ -46,62 +48,21 @@
             "name": "John",
             "surnames": "Resig",
             "title": "Author"
-          },
-          {
-            "name": "Bear",
-            "surnames": "Bibeault",
-            "title": "Author"
           }
         ]
       },
       {
-        "title": "Head First Servlets and JSP: Passing the Sun Certified Web Component Developer ...",
+        "title": "Why we should stop using Grunt & Gulp",
         "type": "reading",
-        "URL": "http://www.amazon.com/Head-First-Servlets-JSP-Certified/dp/0596516681",
+        "URL": "http://blog.keithcirkel.co.uk/why-we-should-stop-using-grunt/",
         "authors": [
           {
-            "name": "Bryan",
-            "surnames": "Basham",
-            "title": "Author"
-          },
-          {
-            "name": "Kathy",
-            "surnames": "Sierra",
-            "title": "Author"
-          },
-          {
-            "name": "Bert",
-            "surnames": "Bates",
+            "name": "Keith",
+            "surnames": "Cirkel",
             "title": "Author"
           }
-        ]
-      },
-      {
-        "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
-        "type": "reading",
-        "URL": "http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612",
-        "authors": [
-          {
-            "name": "Erich",
-            "surnames": "Gamma",
-            "title": "Author"
-          },
-          {
-            "name": "Richard",
-            "surnames": "Helm",
-            "title": "Author"
-          },
-          {
-            "name": "Ralph",
-            "surnames": "Johnson",
-            "title": "Author"
-          },
-          {
-            "name": "John",
-            "surnames": "Vlissides",
-            "title": "Author"
-          }
-        ]
+        ],
+        "summary": "If you're building a modern JavaScript app or site, there's a good chance you're using Grunt or Gulp. Let me cover why I think these are bad choices..."
       },
       {
         "title": "The introduction to Reactive Programming you've been missing · GitHub",
@@ -117,17 +78,28 @@
         "summary": "The introduction to Reactive Programming you've been missing"
       },
       {
-        "title": "Why we should stop using Grunt & Gulp",
+        "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
         "type": "reading",
-        "URL": "http://blog.keithcirkel.co.uk/why-we-should-stop-using-grunt/",
+        "URL": "http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612",
         "authors": [
           {
-            "name": "Keith",
-            "surnames": "Cirkel",
+            "name": "Erich",
+            "surnames": "Gamma",
             "title": "Author"
           }
-        ],
-        "summary": "If you're building a modern JavaScript app or site, there's a good chance you're using Grunt or Gulp. Let me cover why I think these are bad choices..."
+        ]
+      },
+      {
+        "title": "Head First Servlets and JSP: Passing the Sun Certified Web Component Developer ...",
+        "type": "reading",
+        "URL": "http://www.amazon.com/Head-First-Servlets-JSP-Certified/dp/0596516681",
+        "authors": [
+          {
+            "name": "Bryan",
+            "surnames": "Basham",
+            "title": "Author"
+          }
+        ]
       }
     ]
   },
@@ -135,123 +107,45 @@
     "jobs": [
       {
         "organization": {
-          "name": "The Workshop",
-          "URL": "https://theworkshop.com/",
-          "image": {
-            "alt": "The Workshop",
-            "link": "https://i.stack.imgur.com/aYhKS.png"
-          }
-        },
-        "roles": [
-          {
-            "name": "Software Engineer",
-            "startDate": "2020-10-01",
-            "competences": [
-              {
-                "name": "java",
-                "type": "technology"
-              },
-              {
-                "name": "typescript",
-                "type": "technology"
-              },
-              {
-                "name": "angular",
-                "type": "technology"
-              },
-              {
-                "name": "git",
-                "type": "technology"
-              },
-              {
-                "name": "jira",
-                "type": "technology"
-              },
-              {
-                "name": "spring-boot",
-                "type": "technology"
-              },
-              {
-                "name": "docker",
-                "type": "technology"
-              },
-              {
-                "name": "kubernetes",
-                "type": "technology"
-              },
-              {
-                "name": "fedora",
-                "type": "technology"
-              },
-              {
-                "name": "node.js",
-                "type": "technology"
-              },
-              {
-                "name": "javascript",
-                "type": "technology"
-              },
-              {
-                "name": "junit5",
-                "type": "technology"
-              },
-              {
-                "name": "scala-gatling",
-                "type": "technology"
-              },
-              {
-                "name": "maven-3",
-                "type": "technology"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "organization": {
           "name": "Ortoplus"
         },
         "roles": [
           {
             "name": "Software developer",
+            "startDate": "2016-10-01",
+            "finishDate": "2020-09-30",
             "challenges": [
               {
                 "description": "Software engineer + deployments + tech lead"
               }
             ],
-            "startDate": "2016-10-01",
-            "finishDate": "2020-09-30",
             "competences": [
               {
-                "name": "java",
+                "name": "JAVA",
                 "type": "technology"
               },
               {
-                "name": "javascript",
+                "name": "JavaScript",
                 "type": "technology"
               },
               {
-                "name": "postgresql",
+                "name": "PostgreSQL",
                 "type": "technology"
               },
               {
-                "name": "jquery",
+                "name": "jQuery",
                 "type": "technology"
               },
               {
-                "name": "ubuntu",
+                "name": "Ubuntu",
                 "type": "technology"
               },
               {
-                "name": "spring",
+                "name": "Spring",
                 "type": "technology"
               },
               {
-                "name": "spring-mvc",
-                "type": "technology"
-              },
-              {
-                "name": "angular",
+                "name": "Angular2+",
                 "type": "technology"
               },
               {
@@ -259,7 +153,7 @@
                 "type": "technology"
               },
               {
-                "name": "typescript",
+                "name": "TypeScript",
                 "type": "technology"
               },
               {
@@ -267,122 +161,11 @@
                 "type": "technology"
               },
               {
-                "name": "nginx",
+                "name": "Nginx",
                 "type": "technology"
               },
               {
-                "name": "spring-boot",
-                "type": "technology"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "organization": {
-          "name": "Adaptive Financial Consulting"
-        },
-        "roles": [
-          {
-            "name": "Software Developer",
-            "challenges": [
-              {
-                "description": "Front end developer"
-              }
-            ],
-            "startDate": "2016-06-01",
-            "finishDate": "2016-08-31",
-            "competences": [
-              {
-                "name": "typescript",
-                "type": "technology"
-              },
-              {
-                "name": "reactjs",
-                "type": "technology"
-              },
-              {
-                "name": "electron",
-                "type": "technology"
-              },
-              {
-                "name": "rxjs",
-                "type": "technology"
-              },
-              {
-                "name": "javascript",
-                "type": "technology"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "organization": {
-          "name": "IGT",
-          "URL": "http://www.igt.com",
-          "image": {
-            "alt": "IGT",
-            "link": "https://crunchbase-production-res.cloudinary.com/image/upload/h_90/v1476441943/ipgldkaocwswrtfpk6fg.png"
-          }
-        },
-        "roles": [
-          {
-            "name": "Sowfware Engineer",
-            "challenges": [
-              {
-                "description": "As Java developer I've been working on game management systems for several lottery companies. As a Javascript developer, I've developed several instant games using Javascript and an internal framework which allows in-game purchases"
-              }
-            ],
-            "startDate": "2011-09-01",
-            "finishDate": "2016-07-31",
-            "competences": [
-              {
-                "name": "java",
-                "type": "technology"
-              },
-              {
-                "name": "jboss7.x",
-                "type": "technology"
-              },
-              {
-                "name": "javascript",
-                "type": "technology"
-              },
-              {
-                "name": "spring",
-                "type": "technology"
-              },
-              {
-                "name": "html5-canvas",
-                "type": "technology"
-              },
-              {
-                "name": "angularjs",
-                "type": "technology"
-              },
-              {
-                "name": "jquery",
-                "type": "technology"
-              },
-              {
-                "name": "node.js",
-                "type": "technology"
-              },
-              {
-                "name": "maven-3",
-                "type": "technology"
-              },
-              {
-                "name": "phaser-framework",
-                "type": "technology"
-              },
-              {
-                "name": "spring-mvc",
-                "type": "technology"
-              },
-              {
-                "name": "spring-batch",
+                "name": "Spring Boot",
                 "type": "technology"
               }
             ]
@@ -396,24 +179,201 @@
         "roles": [
           {
             "name": "Java Consultant",
+            "startDate": "2010-01-01",
+            "finishDate": "2011-08-31",
             "challenges": [
               {
                 "description": "I was part of the maintenance team for the CRM solution of SKY Plc (formerly British Sky Broadcasting Group), fixing bugs and adding new features."
               }
             ],
-            "startDate": "2010-01-01",
-            "finishDate": "2011-08-31",
             "competences": [
               {
-                "name": "java",
+                "name": "JAVA",
                 "type": "technology"
               },
               {
-                "name": "websphere",
+                "name": "Websphere",
                 "type": "technology"
               },
               {
-                "name": "oracle",
+                "name": "Oracle",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Adaptive Financial Consulting"
+        },
+        "roles": [
+          {
+            "name": "Software Developer",
+            "startDate": "2016-06-01",
+            "finishDate": "2016-08-31",
+            "challenges": [
+              {
+                "description": "Front end developer"
+              }
+            ],
+            "competences": [
+              {
+                "name": "TypeScript",
+                "type": "technology"
+              },
+              {
+                "name": "React",
+                "type": "technology"
+              },
+              {
+                "name": "Electron",
+                "type": "technology"
+              },
+              {
+                "name": "RxJS",
+                "type": "technology"
+              },
+              {
+                "name": "JavaScript",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "The Workshop",
+          "image": {
+            "alt": "The Workshop",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/04/01/b2d63ad5-4e27-4417-b118-aa902418b06c_ayhks.png"
+          },
+          "URL": "https://theworkshop.com/"
+        },
+        "roles": [
+          {
+            "name": "Software Engineer",
+            "startDate": "2020-10-01",
+            "competences": [
+              {
+                "name": "JAVA",
+                "type": "technology"
+              },
+              {
+                "name": "TypeScript",
+                "type": "technology"
+              },
+              {
+                "name": "Angular2+",
+                "type": "technology"
+              },
+              {
+                "name": "Git",
+                "type": "technology"
+              },
+              {
+                "name": "Jira",
+                "type": "technology"
+              },
+              {
+                "name": "Spring Boot",
+                "type": "technology"
+              },
+              {
+                "name": "Docker",
+                "type": "technology"
+              },
+              {
+                "name": "Kubernetes",
+                "type": "technology"
+              },
+              {
+                "name": "fedora",
+                "type": "technology"
+              },
+              {
+                "name": "NodeJS",
+                "type": "technology"
+              },
+              {
+                "name": "JavaScript",
+                "type": "technology"
+              },
+              {
+                "name": "junit5",
+                "type": "technology"
+              },
+              {
+                "name": "scala-gatling",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "IGT",
+          "image": {
+            "alt": "IGT",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/04/01/64312335-9a84-4e28-a974-8d31f727a13f_ipgldkaocwswrtfpk6fg.png"
+          },
+          "URL": "http://www.igt.com"
+        },
+        "roles": [
+          {
+            "name": "Sowfware Engineer",
+            "startDate": "2011-09-01",
+            "finishDate": "2016-07-31",
+            "challenges": [
+              {
+                "description": "As Java developer I've been working on game management systems for several lottery companies. As a Javascript developer, I've developed several instant games using Javascript and an internal framework which allows in-game purchases"
+              }
+            ],
+            "competences": [
+              {
+                "name": "JAVA",
+                "type": "technology"
+              },
+              {
+                "name": "jboss7.x",
+                "type": "technology"
+              },
+              {
+                "name": "JavaScript",
+                "type": "technology"
+              },
+              {
+                "name": "Spring",
+                "type": "technology"
+              },
+              {
+                "name": "HTML",
+                "type": "technology"
+              },
+              {
+                "name": "AngularJS",
+                "type": "technology"
+              },
+              {
+                "name": "jQuery",
+                "type": "technology"
+              },
+              {
+                "name": "NodeJS",
+                "type": "technology"
+              },
+              {
+                "name": "maven-3",
+                "type": "technology"
+              },
+              {
+                "name": "phaser-framework",
+                "type": "technology"
+              },
+              {
+                "name": "Spring-Batch",
                 "type": "technology"
               }
             ]
@@ -424,34 +384,34 @@
     "publicArtifacts": [
       {
         "details": {
-          "name": "Core Spring - Score: 218/300",
-          "image": {
-            "alt": "Title: Core Spring - Score: 218/300",
-            "link": "https://i.stack.imgur.com/Xc4iu.png"
-          }
-        },
-        "type": "achievement",
-        "publishingDate": "2018-11-01",
-        "relatedCompetences": [
-          {
-            "name": "spring",
-            "type": "technology"
-          }
-        ]
-      },
-      {
-        "details": {
           "name": "Angular - Score: 216/300",
           "image": {
             "alt": "Title: Angular - Score: 216/300",
-            "link": "https://i.stack.imgur.com/e0Wiv.png"
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/04/01/0a7c453d-200d-4bab-8468-bd4622d9e143_e0wiv.png"
           }
         },
         "type": "achievement",
         "publishingDate": "2018-06-01",
         "relatedCompetences": [
           {
-            "name": "angular",
+            "name": "Angular2+",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "Core Spring - Score: 218/300",
+          "image": {
+            "alt": "Title: Core Spring - Score: 218/300",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/04/01/5e2716d9-76e7-4330-b8f4-0dbb0ff4f635_xc4iu.png"
+          }
+        },
+        "type": "achievement",
+        "publishingDate": "2018-11-01",
+        "relatedCompetences": [
+          {
+            "name": "Spring",
             "type": "technology"
           }
         ]
@@ -465,15 +425,15 @@
         "publishingDate": "2022-03-04",
         "relatedCompetences": [
           {
-            "name": "java",
+            "name": "JAVA",
             "type": "technology"
           },
           {
-            "name": "javascript",
+            "name": "JavaScript",
             "type": "technology"
           },
           {
-            "name": "rest",
+            "name": "REST",
             "type": "technology"
           }
         ]
@@ -487,7 +447,7 @@
         "publishingDate": "2022-03-04",
         "relatedCompetences": [
           {
-            "name": "angular",
+            "name": "Angular2+",
             "type": "technology"
           },
           {
@@ -499,15 +459,15 @@
             "type": "technology"
           },
           {
-            "name": "html",
+            "name": "HTML",
             "type": "technology"
           },
           {
-            "name": "jquery",
+            "name": "jQuery",
             "type": "technology"
           },
           {
-            "name": "json",
+            "name": "JSON",
             "type": "technology"
           }
         ]
@@ -521,11 +481,11 @@
         "publishingDate": "2022-03-04",
         "relatedCompetences": [
           {
-            "name": "ecmascript-6",
+            "name": "ECMAScript",
             "type": "technology"
           },
           {
-            "name": "node.js",
+            "name": "NodeJS",
             "type": "technology"
           },
           {
@@ -533,7 +493,7 @@
             "type": "technology"
           },
           {
-            "name": "spring",
+            "name": "Spring",
             "type": "technology"
           }
         ]
@@ -541,6 +501,58 @@
     ]
   },
   "knowledge": {
+    "languages": [
+      {
+        "name": "Spanish"
+      },
+      {
+        "name": "English"
+      }
+    ],
+    "hardSkills": [
+      {
+        "skill": {
+          "name": "JavaScript",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Angular2+",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "PostgreSQL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "MySQL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Spring Boot",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "JPA",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Spring Cloud",
+          "type": "technology"
+        }
+      }
+    ],
     "studies": [
       {
         "studyType": "certification",
@@ -553,7 +565,7 @@
         },
         "linkedCompetences": [
           {
-            "name": "java",
+            "name": "JAVA",
             "type": "technology"
           }
         ]
@@ -564,9 +576,9 @@
         "name": "Systems Engineering",
         "startDate": "1996-01-01",
         "finishDate": "2005-01-01",
-        "description": "I passed all courses. However I did not complete this degree due to the lack of a thesis/Final project",
         "institution": {
-          "name": "Universidad de Málaga (UMA)"
+          "name": "Universidad de Málaga (UMA)",
+          "description": "I passed all courses. However I did not complete this degree due to the lack of a thesis/Final project"
         }
       }
     ]
@@ -576,44 +588,44 @@
       "publicProfiles": [
         {
           "type": "other",
-          "URL": "https://twitter.com/PLoz_"
+          "URL": "https://stackoverflow.com/users/1919228/pablo-lozano"
         }
       ]
     },
     "preferences": {
       "preferredCompetences": [
         {
-          "name": "java",
+          "name": "JAVA",
           "type": "technology"
         },
         {
-          "name": "angular",
+          "name": "Angular2+",
           "type": "technology"
         },
         {
-          "name": "git",
+          "name": "Git",
           "type": "technology"
         },
         {
-          "name": "spring-boot",
+          "name": "Spring Boot",
           "type": "technology"
         },
         {
           "name": "junit5",
           "type": "technology"
+        },
+        {
+          "name": "Kubernetes",
+          "type": "technology"
+        },
+        {
+          "name": "Docker",
+          "type": "technology"
         }
       ],
       "discardedCompetences": [
         {
-          "name": "sap",
-          "type": "technology"
-        },
-        {
-          "name": "business-objects",
-          "type": "technology"
-        },
-        {
-          "name": "php",
+          "name": "SAP",
           "type": "technology"
         }
       ]
