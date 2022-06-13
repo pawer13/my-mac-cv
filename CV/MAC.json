@@ -106,6 +106,12 @@
           {
             "name": "Software Engineer",
             "startDate": "2020-10-01",
+            "finishDate": "2022-06-01",
+            "challenges": [
+              {
+                "description": "As part of the Payments Team, I helped to integrate new payment service providers. Besides I work on the antifraud services, where our solutions helped to detect suspicious transactions or profiles during payment transactions.\nI've learned a lot about TDD methodology & automated testing, CI/CD and micro-services using Docker and Kubernetes."
+              }
+            ],
             "competences": [
               {
                 "name": "Angular2+",
