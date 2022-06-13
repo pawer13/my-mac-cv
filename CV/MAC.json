@@ -175,12 +175,12 @@
         },
         "roles": [
           {
-            "name": "Software developer",
+            "name": "Software Engineer",
             "startDate": "2016-10-01",
             "finishDate": "2020-09-30",
             "challenges": [
               {
-                "description": "Software engineer + deployments + tech lead"
+                "description": "As part of a small software department (up to three developers), we created and maintained several internal tools (billing, accounting, e-commerce. We started with on-premise applications but, as the company grew, we moved part of the business logic to the cloud to get a better reliability and scalability."
               }
             ],
             "competences": [
