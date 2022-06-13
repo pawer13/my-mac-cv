@@ -400,40 +400,6 @@
       },
       {
         "details": {
-          "name": "Top 10% at Stack Overflow answers",
-          "description": "This user is part of the top 10% Stack Overflow answerers in these technologies"
-        },
-        "type": "achievement",
-        "publishingDate": "2022-03-04",
-        "relatedCompetences": [
-          {
-            "name": "Angular2+",
-            "type": "technology"
-          },
-          {
-            "name": "HTML",
-            "type": "technology"
-          },
-          {
-            "name": "JSON",
-            "type": "technology"
-          },
-          {
-            "name": "arrays",
-            "type": "technology"
-          },
-          {
-            "name": "google-chrome",
-            "type": "technology"
-          },
-          {
-            "name": "jQuery",
-            "type": "technology"
-          }
-        ]
-      },
-      {
-        "details": {
           "name": "Core Spring - Score: 218/300",
           "image": {
             "alt": "Title: Core Spring - Score: 218/300",
