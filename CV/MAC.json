@@ -434,32 +434,6 @@
       },
       {
         "details": {
-          "name": "Top 20% at Stack Overflow answers",
-          "description": "This user is part of the top 20% Stack Overflow answerers in these technologies"
-        },
-        "type": "achievement",
-        "publishingDate": "2022-03-04",
-        "relatedCompetences": [
-          {
-            "name": "ECMAScript",
-            "type": "technology"
-          },
-          {
-            "name": "NodeJS",
-            "type": "technology"
-          },
-          {
-            "name": "Spring",
-            "type": "technology"
-          },
-          {
-            "name": "regex",
-            "type": "technology"
-          }
-        ]
-      },
-      {
-        "details": {
           "name": "Core Spring - Score: 218/300",
           "image": {
             "alt": "Title: Core Spring - Score: 218/300",
