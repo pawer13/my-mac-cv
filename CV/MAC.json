@@ -20,25 +20,37 @@
     },
     "relevantLinks": [
       {
-        "type": "twitter",
-        "URL": "https://twitter.com/PLoz_"
-      },
-      {
         "type": "other",
         "URL": "https://stackoverflow.com/users/1919228/pablo-lozano"
+      },
+      {
+        "type": "twitter",
+        "URL": "https://twitter.com/PLoz_"
       }
     ],
     "interestingFacts": [
       {
-        "topic": "Favorite editor",
-        "fact": "Visual Studio Code"
+        "topic": "Hobbies",
+        "fact": "Playing Go (board game)"
       },
       {
-        "topic": "First computer",
-        "fact": "Spectrum Sinclair +2"
+        "topic": "Favorite editor",
+        "fact": "Visual Studio Code"
       }
     ],
     "recommendations": [
+      {
+        "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+        "type": "reading",
+        "URL": "http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612",
+        "authors": [
+          {
+            "name": "Erich",
+            "surnames": "Gamma",
+            "title": "Author"
+          }
+        ]
+      },
       {
         "title": "Secrets of the JavaScript Ninja",
         "type": "reading",
@@ -50,19 +62,6 @@
             "title": "Author"
           }
         ]
-      },
-      {
-        "title": "Why we should stop using Grunt & Gulp",
-        "type": "reading",
-        "URL": "http://blog.keithcirkel.co.uk/why-we-should-stop-using-grunt/",
-        "authors": [
-          {
-            "name": "Keith",
-            "surnames": "Cirkel",
-            "title": "Author"
-          }
-        ],
-        "summary": "If you're building a modern JavaScript app or site, there's a good chance you're using Grunt or Gulp. Let me cover why I think these are bad choices..."
       },
       {
         "title": "The introduction to Reactive Programming you've been missing · GitHub",
@@ -78,21 +77,92 @@
         "summary": "The introduction to Reactive Programming you've been missing"
       },
       {
-        "title": "Design Patterns: Elements of Reusable Object-Oriented Software",
+        "title": "Why we should stop using Grunt & Gulp",
         "type": "reading",
-        "URL": "http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612",
+        "URL": "http://blog.keithcirkel.co.uk/why-we-should-stop-using-grunt/",
         "authors": [
           {
-            "name": "Erich",
-            "surnames": "Gamma",
+            "name": "Keith",
+            "surnames": "Cirkel",
             "title": "Author"
           }
-        ]
+        ],
+        "summary": "If you're building a modern JavaScript app or site, there's a good chance you're using Grunt or Gulp. Let me cover why I think these are bad choices..."
       }
     ]
   },
   "experience": {
     "jobs": [
+      {
+        "organization": {
+          "name": "The Workshop",
+          "image": {
+            "alt": "The Workshop",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/04/01/b2d63ad5-4e27-4417-b118-aa902418b06c_ayhks.png"
+          },
+          "URL": "https://theworkshop.com/"
+        },
+        "roles": [
+          {
+            "name": "Software Engineer",
+            "startDate": "2020-10-01",
+            "competences": [
+              {
+                "name": "Angular2+",
+                "type": "technology"
+              },
+              {
+                "name": "Docker",
+                "type": "technology"
+              },
+              {
+                "name": "Git",
+                "type": "technology"
+              },
+              {
+                "name": "JAVA",
+                "type": "technology"
+              },
+              {
+                "name": "JavaScript",
+                "type": "technology"
+              },
+              {
+                "name": "Jira",
+                "type": "technology"
+              },
+              {
+                "name": "Kubernetes",
+                "type": "technology"
+              },
+              {
+                "name": "NodeJS",
+                "type": "technology"
+              },
+              {
+                "name": "Spring Boot",
+                "type": "technology"
+              },
+              {
+                "name": "TypeScript",
+                "type": "technology"
+              },
+              {
+                "name": "fedora",
+                "type": "technology"
+              },
+              {
+                "name": "junit5",
+                "type": "technology"
+              },
+              {
+                "name": "scala-gatling",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
       {
         "organization": {
           "name": "Ortoplus"
@@ -109,6 +179,10 @@
             ],
             "competences": [
               {
+                "name": "Angular2+",
+                "type": "technology"
+              },
+              {
                 "name": "JAVA",
                 "type": "technology"
               },
@@ -117,15 +191,11 @@
                 "type": "technology"
               },
               {
+                "name": "Nginx",
+                "type": "technology"
+              },
+              {
                 "name": "PostgreSQL",
-                "type": "technology"
-              },
-              {
-                "name": "jQuery",
-                "type": "technology"
-              },
-              {
-                "name": "Ubuntu",
                 "type": "technology"
               },
               {
@@ -133,11 +203,7 @@
                 "type": "technology"
               },
               {
-                "name": "Angular2+",
-                "type": "technology"
-              },
-              {
-                "name": "twitter-bootstrap",
+                "name": "Spring Boot",
                 "type": "technology"
               },
               {
@@ -145,46 +211,19 @@
                 "type": "technology"
               },
               {
+                "name": "Ubuntu",
+                "type": "technology"
+              },
+              {
+                "name": "jQuery",
+                "type": "technology"
+              },
+              {
                 "name": "tomcat8",
                 "type": "technology"
               },
               {
-                "name": "Nginx",
-                "type": "technology"
-              },
-              {
-                "name": "Spring Boot",
-                "type": "technology"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "organization": {
-          "name": "Comet Global Consulting"
-        },
-        "roles": [
-          {
-            "name": "Java Consultant",
-            "startDate": "2010-01-01",
-            "finishDate": "2011-08-31",
-            "challenges": [
-              {
-                "description": "I was part of the maintenance team for the CRM solution of SKY Plc (formerly British Sky Broadcasting Group), fixing bugs and adding new features."
-              }
-            ],
-            "competences": [
-              {
-                "name": "JAVA",
-                "type": "technology"
-              },
-              {
-                "name": "Websphere",
-                "type": "technology"
-              },
-              {
-                "name": "Oracle",
+                "name": "twitter-bootstrap",
                 "type": "technology"
               }
             ]
@@ -207,7 +246,11 @@
             ],
             "competences": [
               {
-                "name": "TypeScript",
+                "name": "Electron",
+                "type": "technology"
+              },
+              {
+                "name": "JavaScript",
                 "type": "technology"
               },
               {
@@ -215,85 +258,11 @@
                 "type": "technology"
               },
               {
-                "name": "Electron",
-                "type": "technology"
-              },
-              {
                 "name": "RxJS",
                 "type": "technology"
               },
               {
-                "name": "JavaScript",
-                "type": "technology"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "organization": {
-          "name": "The Workshop",
-          "image": {
-            "alt": "The Workshop",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/04/01/b2d63ad5-4e27-4417-b118-aa902418b06c_ayhks.png"
-          },
-          "URL": "https://theworkshop.com/"
-        },
-        "roles": [
-          {
-            "name": "Software Engineer",
-            "startDate": "2020-10-01",
-            "competences": [
-              {
-                "name": "JAVA",
-                "type": "technology"
-              },
-              {
                 "name": "TypeScript",
-                "type": "technology"
-              },
-              {
-                "name": "Angular2+",
-                "type": "technology"
-              },
-              {
-                "name": "Git",
-                "type": "technology"
-              },
-              {
-                "name": "Jira",
-                "type": "technology"
-              },
-              {
-                "name": "Spring Boot",
-                "type": "technology"
-              },
-              {
-                "name": "Docker",
-                "type": "technology"
-              },
-              {
-                "name": "Kubernetes",
-                "type": "technology"
-              },
-              {
-                "name": "fedora",
-                "type": "technology"
-              },
-              {
-                "name": "NodeJS",
-                "type": "technology"
-              },
-              {
-                "name": "JavaScript",
-                "type": "technology"
-              },
-              {
-                "name": "junit5",
-                "type": "technology"
-              },
-              {
-                "name": "scala-gatling",
                 "type": "technology"
               }
             ]
@@ -321,19 +290,7 @@
             ],
             "competences": [
               {
-                "name": "JAVA",
-                "type": "technology"
-              },
-              {
-                "name": "jboss7.x",
-                "type": "technology"
-              },
-              {
-                "name": "JavaScript",
-                "type": "technology"
-              },
-              {
-                "name": "Spring",
+                "name": "AngularJS",
                 "type": "technology"
               },
               {
@@ -341,7 +298,23 @@
                 "type": "technology"
               },
               {
-                "name": "AngularJS",
+                "name": "JAVA",
+                "type": "technology"
+              },
+              {
+                "name": "JavaScript",
+                "type": "technology"
+              },
+              {
+                "name": "NodeJS",
+                "type": "technology"
+              },
+              {
+                "name": "Spring",
+                "type": "technology"
+              },
+              {
+                "name": "Spring-Batch",
                 "type": "technology"
               },
               {
@@ -349,7 +322,7 @@
                 "type": "technology"
               },
               {
-                "name": "NodeJS",
+                "name": "jboss7.x",
                 "type": "technology"
               },
               {
@@ -359,9 +332,36 @@
               {
                 "name": "phaser-framework",
                 "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Comet Global Consulting"
+        },
+        "roles": [
+          {
+            "name": "Java Consultant",
+            "startDate": "2010-01-01",
+            "finishDate": "2011-08-31",
+            "challenges": [
+              {
+                "description": "I was part of the maintenance team for the CRM solution of SKY Plc (formerly British Sky Broadcasting Group), fixing bugs and adding new features."
+              }
+            ],
+            "competences": [
+              {
+                "name": "JAVA",
+                "type": "technology"
               },
               {
-                "name": "Spring-Batch",
+                "name": "Oracle",
+                "type": "technology"
+              },
+              {
+                "name": "Websphere",
                 "type": "technology"
               }
             ]
@@ -370,40 +370,6 @@
       }
     ],
     "publicArtifacts": [
-      {
-        "details": {
-          "name": "Angular - Score: 216/300",
-          "image": {
-            "alt": "Title: Angular - Score: 216/300",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/04/01/0a7c453d-200d-4bab-8468-bd4622d9e143_e0wiv.png"
-          }
-        },
-        "type": "achievement",
-        "publishingDate": "2018-06-01",
-        "relatedCompetences": [
-          {
-            "name": "Angular2+",
-            "type": "technology"
-          }
-        ]
-      },
-      {
-        "details": {
-          "name": "Core Spring - Score: 218/300",
-          "image": {
-            "alt": "Title: Core Spring - Score: 218/300",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/04/01/5e2716d9-76e7-4330-b8f4-0dbb0ff4f635_xc4iu.png"
-          }
-        },
-        "type": "achievement",
-        "publishingDate": "2018-11-01",
-        "relatedCompetences": [
-          {
-            "name": "Spring",
-            "type": "technology"
-          }
-        ]
-      },
       {
         "details": {
           "name": "Top 5% at Stack Overflow answers",
@@ -439,6 +405,14 @@
             "type": "technology"
           },
           {
+            "name": "HTML",
+            "type": "technology"
+          },
+          {
+            "name": "JSON",
+            "type": "technology"
+          },
+          {
             "name": "arrays",
             "type": "technology"
           },
@@ -447,15 +421,7 @@
             "type": "technology"
           },
           {
-            "name": "HTML",
-            "type": "technology"
-          },
-          {
             "name": "jQuery",
-            "type": "technology"
-          },
-          {
-            "name": "JSON",
             "type": "technology"
           }
         ]
@@ -477,11 +443,45 @@
             "type": "technology"
           },
           {
-            "name": "regex",
+            "name": "Spring",
             "type": "technology"
           },
           {
+            "name": "regex",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "Core Spring - Score: 218/300",
+          "image": {
+            "alt": "Title: Core Spring - Score: 218/300",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/04/01/5e2716d9-76e7-4330-b8f4-0dbb0ff4f635_xc4iu.png"
+          }
+        },
+        "type": "achievement",
+        "publishingDate": "2018-11-01",
+        "relatedCompetences": [
+          {
             "name": "Spring",
+            "type": "technology"
+          }
+        ]
+      },
+      {
+        "details": {
+          "name": "Angular - Score: 216/300",
+          "image": {
+            "alt": "Title: Angular - Score: 216/300",
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/04/01/0a7c453d-200d-4bab-8468-bd4622d9e143_e0wiv.png"
+          }
+        },
+        "type": "achievement",
+        "publishingDate": "2018-06-01",
+        "relatedCompetences": [
+          {
+            "name": "Angular2+",
             "type": "technology"
           }
         ]
@@ -491,13 +491,19 @@
   "knowledge": {
     "languages": [
       {
-        "name": "Spanish"
+        "name": "English"
       },
       {
-        "name": "English"
+        "name": "Spanish"
       }
     ],
     "hardSkills": [
+      {
+        "skill": {
+          "name": "JAVA",
+          "type": "technology"
+        }
+      },
       {
         "skill": {
           "name": "JavaScript",
@@ -512,19 +518,25 @@
       },
       {
         "skill": {
-          "name": "PostgreSQL",
+          "name": "Linux",
           "type": "technology"
         }
       },
       {
         "skill": {
-          "name": "MySQL",
+          "name": "TypeScript",
           "type": "technology"
         }
       },
       {
         "skill": {
           "name": "Spring Boot",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Hibernate",
           "type": "technology"
         }
       },
@@ -583,15 +595,23 @@
     "preferences": {
       "preferredCompetences": [
         {
-          "name": "JAVA",
-          "type": "technology"
-        },
-        {
           "name": "Angular2+",
           "type": "technology"
         },
         {
+          "name": "Docker",
+          "type": "technology"
+        },
+        {
           "name": "Git",
+          "type": "technology"
+        },
+        {
+          "name": "JAVA",
+          "type": "technology"
+        },
+        {
+          "name": "Kubernetes",
           "type": "technology"
         },
         {
@@ -600,14 +620,6 @@
         },
         {
           "name": "junit5",
-          "type": "technology"
-        },
-        {
-          "name": "Kubernetes",
-          "type": "technology"
-        },
-        {
-          "name": "Docker",
           "type": "technology"
         }
       ],
