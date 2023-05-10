@@ -29,6 +29,10 @@
       {
         "type": "twitter",
         "URL": "https://twitter.com/PLoz_"
+      },
+      {
+        "type": "linkedin",
+        "URL": "https://www.linkedin.com/in/pablolozanof/"
       }
     ],
     "interestingFacts": [
@@ -537,6 +541,10 @@
   "careerPreferences": {
     "contact": {
       "publicProfiles": [
+        {
+          "type": "linkedin",
+          "URL": "https://www.linkedin.com/in/pablolozanof/"
+        },
         {
           "type": "stackoverflow",
           "URL": "https://stackoverflow.com/users/1919228/pablo-lozano"
