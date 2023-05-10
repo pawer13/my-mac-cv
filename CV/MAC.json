@@ -31,6 +31,10 @@
         "URL": "https://stackoverflow.com/users/1919228/pablo-lozano"
       },
       {
+        "type": "other",
+        "URL": "https://stackoverflow.com/users/1919228/pablo-lozano"
+      },
+      {
         "type": "twitter",
         "URL": "https://twitter.com/PLoz_"
       },
@@ -560,6 +564,10 @@
         {
           "type": "other",
           "URL": "https://twitter.com/PLoz_"
+        },
+        {
+          "type": "other",
+          "URL": "https://stackoverflow.com/users/1919228/pablo-lozano"
         }
       ]
     },
