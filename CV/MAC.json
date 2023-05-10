@@ -1,7 +1,7 @@
 {
   "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.3/schema/schema.json",
   "settings": {
-    "language": "ES",
+    "language": "EN",
     "MACVersion": "0.3"
   },
   "aboutMe": {
@@ -9,7 +9,7 @@
       "name": "Pablo",
       "surnames": "Lozano",
       "title": "Full Stack Software Engineer",
-      "description": "",
+      "description": "I'm a experienced Java and Javascript/Typescript developer. I love experimenting with new technologies and methodologies. I like to share any piece of knowledge/information with colleagues and receive feedback from them, that's why I am here",
       "avatar": {
         "alt": "profile-image",
         "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/04/01/43c454fa-ffad-454b-868a-35ba19fceba3_b942d91f7affb127a69d.b942d91f7affb127a69d54c71dd26580"
@@ -52,8 +52,7 @@
             "surnames": "Gamma",
             "title": "Author"
           }
-        ],
-        "summary": ""
+        ]
       },
       {
         "title": "Secrets of the JavaScript Ninja",
@@ -65,34 +64,33 @@
             "surnames": "Resig",
             "title": "Author"
           }
-        ],
-        "summary": ""
+        ]
       },
       {
         "title": "The introduction to Reactive Programming you've been missing · GitHub",
         "type": "reading",
         "URL": "https://gist.github.com/staltz/868e7e9bc2a7b8c1f754",
+        "summary": "The introduction to Reactive Programming you've been missing",
         "authors": [
           {
             "name": "Gist",
             "surnames": "Gist",
             "title": "Author"
           }
-        ],
-        "summary": "The introduction to Reactive Programming you've been missing"
+        ]
       },
       {
         "title": "Why we should stop using Grunt & Gulp",
         "type": "reading",
         "URL": "http://blog.keithcirkel.co.uk/why-we-should-stop-using-grunt/",
+        "summary": "If you're building a modern JavaScript app or site, there's a good chance you're using Grunt or Gulp. Let me cover why I think these are bad choices...",
         "authors": [
           {
             "name": "Keith",
             "surnames": "Cirkel",
             "title": "Author"
           }
-        ],
-        "summary": "If you're building a modern JavaScript app or site, there's a good chance you're using Grunt or Gulp. Let me cover why I think these are bad choices..."
+        ]
       }
     ]
   },
@@ -176,8 +174,7 @@
       },
       {
         "organization": {
-          "name": "Ortoplus",
-          "URL": ""
+          "name": "Ortoplus"
         },
         "roles": [
           {
@@ -351,8 +348,7 @@
       },
       {
         "organization": {
-          "name": "Comet Global Consulting (now part of Merkle)",
-          "URL": ""
+          "name": "Comet Global Consulting (now part of Merkle)"
         },
         "roles": [
           {
@@ -408,7 +404,6 @@
       {
         "details": {
           "name": "Core Spring - Score: 218/300",
-          "description": "",
           "image": {
             "alt": "Title: Core Spring - Score: 218/300",
             "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/04/01/5e2716d9-76e7-4330-b8f4-0dbb0ff4f635_xc4iu.png"
@@ -426,7 +421,6 @@
       {
         "details": {
           "name": "Angular - Score: 216/300",
-          "description": "",
           "image": {
             "alt": "Title: Angular - Score: 216/300",
             "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/04/01/0a7c453d-200d-4bab-8468-bd4622d9e143_e0wiv.png"
@@ -446,11 +440,11 @@
   "knowledge": {
     "languages": [
       {
-        "name": "English",
+        "name": "Spanish",
         "level": "Limited working proficiency"
       },
       {
-        "name": "Spanish",
+        "name": "English",
         "level": "Limited working proficiency"
       }
     ],
@@ -518,8 +512,7 @@
         "startDate": "2007-01-01",
         "finishDate": "2007-01-01",
         "institution": {
-          "name": "Sun Java Certificated Developer",
-          "description": ""
+          "name": "Sun Java Certificated Developer"
         },
         "linkedCompetences": [
           {
@@ -545,8 +538,12 @@
     "contact": {
       "publicProfiles": [
         {
-          "type": "other",
+          "type": "stackoverflow",
           "URL": "https://stackoverflow.com/users/1919228/pablo-lozano"
+        },
+        {
+          "type": "other",
+          "URL": "https://twitter.com/PLoz_"
         }
       ]
     },
@@ -591,6 +588,6 @@
         "Full-stack Developer"
       ]
     },
-    "status": "searchingActively"
+    "status": "notAvailable"
   }
 }
