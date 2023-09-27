@@ -31,14 +31,6 @@
         "URL": "https://stackoverflow.com/users/1919228/pablo-lozano"
       },
       {
-        "type": "other",
-        "URL": "https://stackoverflow.com/users/1919228/pablo-lozano"
-      },
-      {
-        "type": "twitter",
-        "URL": "https://twitter.com/PLoz_"
-      },
-      {
         "type": "linkedin",
         "URL": "https://www.linkedin.com/in/pablolozanof/"
       }
@@ -74,19 +66,6 @@
           {
             "name": "John",
             "surnames": "Resig",
-            "title": "Author"
-          }
-        ]
-      },
-      {
-        "title": "The introduction to Reactive Programming you've been missing · GitHub",
-        "type": "reading",
-        "URL": "https://gist.github.com/staltz/868e7e9bc2a7b8c1f754",
-        "summary": "The introduction to Reactive Programming you've been missing",
-        "authors": [
-          {
-            "name": "Gist",
-            "surnames": "Gist",
             "title": "Author"
           }
         ]
