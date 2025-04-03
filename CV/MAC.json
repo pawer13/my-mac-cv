@@ -1,8 +1,8 @@
 {
-  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.3/schema/schema.json",
+  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.5/schema/schema.json",
   "settings": {
     "language": "EN",
-    "MACVersion": "0.3"
+    "MACVersion": "0.5"
   },
   "aboutMe": {
     "profile": {
@@ -11,30 +11,16 @@
       "title": "Full Stack Software Engineer",
       "description": "I'm a experienced Java and Javascript/Typescript developer. I love experimenting with new technologies and methodologies. I like to share any piece of knowledge/information with colleagues and receive feedback from them, that's why I am here",
       "avatar": {
-        "alt": "profile-image",
-        "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/04/01/43c454fa-ffad-454b-868a-35ba19fceba3_b942d91f7affb127a69d.b942d91f7affb127a69d54c71dd26580"
+        "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/04/01/43c454fa-ffad-454b-868a-35ba19fceba3_b942d91f7affb127a69d.b942d91f7affb127a69d54c71dd26580",
+        "alt": "profile-image"
       },
       "location": {
+        "notes": "Autocompleted using Google Maps API (id: ChIJP-IFYLf8cg0RGlDfOjxP8gw)",
         "country": "España",
         "region": "Andalucía",
-        "municipality": "Málaga",
-        "notes": "Autocompleted using Google Maps API"
+        "municipality": "Benalmádena"
       }
     },
-    "relevantLinks": [
-      {
-        "type": "github",
-        "URL": "https://github.com/pawer13"
-      },
-      {
-        "type": "other",
-        "URL": "https://stackoverflow.com/users/1919228/pablo-lozano"
-      },
-      {
-        "type": "linkedin",
-        "URL": "https://www.linkedin.com/in/pablolozanof/"
-      }
-    ],
     "interestingFacts": [
       {
         "topic": "Hobbies",
@@ -74,7 +60,6 @@
         "title": "Why we should stop using Grunt & Gulp",
         "type": "reading",
         "URL": "http://blog.keithcirkel.co.uk/why-we-should-stop-using-grunt/",
-        "summary": "If you're building a modern JavaScript app or site, there's a good chance you're using Grunt or Gulp. Let me cover why I think these are bad choices...",
         "authors": [
           {
             "name": "Keith",
@@ -83,16 +68,84 @@
           }
         ]
       }
+    ],
+    "relevantLinks": [
+      {
+        "type": "linkedin",
+        "URL": "https://www.linkedin.com/in/pablolozanof/"
+      },
+      {
+        "type": "stackoverflow",
+        "URL": "https://stackoverflow.com/users/1919228/pablo-lozano"
+      },
+      {
+        "type": "other",
+        "URL": "https://stackoverflow.com/users/1919228/pablo-lozano"
+      },
+      {
+        "type": "other",
+        "URL": "https://github.com/pawer13"
+      },
+      {
+        "type": "other",
+        "URL": "https://twitter.com/PLoz_"
+      }
     ]
   },
   "experience": {
     "jobs": [
       {
         "organization": {
+          "name": "Spacewell Energy (Dexma)",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/23/09/28/ea7624a9-3393-489e-80d9-67c1fc05c10f_logo-spacewell-energ.png",
+            "alt": "Logo-Spacewell-Energy-Transparent.png"
+          },
+          "URL": "https://www.dexma.com/"
+        },
+        "roles": [
+          {
+            "name": "Senior Software Engineer",
+            "startDate": "2022-07-01",
+            "competences": [
+              {
+                "name": "Docker",
+                "type": "technology"
+              },
+              {
+                "name": "Google Cloud",
+                "type": "technology"
+              },
+              {
+                "name": "Hibernate",
+                "type": "technology"
+              },
+              {
+                "name": "Java",
+                "type": "technology"
+              },
+              {
+                "name": "Kubernetes",
+                "type": "technology"
+              },
+              {
+                "name": "React",
+                "type": "technology"
+              },
+              {
+                "name": "Spring Boot",
+                "type": "technology"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
           "name": "The Workshop",
           "image": {
-            "alt": "The Workshop",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/04/01/b2d63ad5-4e27-4417-b118-aa902418b06c_ayhks.png"
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/04/01/b2d63ad5-4e27-4417-b118-aa902418b06c_ayhks.png",
+            "alt": "The Workshop"
           },
           "URL": "https://theworkshop.com/"
         },
@@ -120,7 +173,7 @@
                 "type": "technology"
               },
               {
-                "name": "JAVA",
+                "name": "Java",
                 "type": "technology"
               },
               {
@@ -145,18 +198,6 @@
               },
               {
                 "name": "TypeScript",
-                "type": "technology"
-              },
-              {
-                "name": "fedora",
-                "type": "technology"
-              },
-              {
-                "name": "junit5",
-                "type": "technology"
-              },
-              {
-                "name": "scala-gatling",
                 "type": "technology"
               }
             ]
@@ -183,7 +224,7 @@
                 "type": "technology"
               },
               {
-                "name": "JAVA",
+                "name": "Java",
                 "type": "technology"
               },
               {
@@ -216,14 +257,6 @@
               },
               {
                 "name": "jQuery",
-                "type": "technology"
-              },
-              {
-                "name": "tomcat8",
-                "type": "technology"
-              },
-              {
-                "name": "twitter-bootstrap",
                 "type": "technology"
               }
             ]
@@ -273,8 +306,8 @@
         "organization": {
           "name": "IGT",
           "image": {
-            "alt": "IGT",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/04/01/64312335-9a84-4e28-a974-8d31f727a13f_ipgldkaocwswrtfpk6fg.png"
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/04/01/64312335-9a84-4e28-a974-8d31f727a13f_ipgldkaocwswrtfpk6fg.png",
+            "alt": "IGT"
           },
           "URL": "http://www.igt.com"
         },
@@ -298,7 +331,7 @@
                 "type": "technology"
               },
               {
-                "name": "JAVA",
+                "name": "Java",
                 "type": "technology"
               },
               {
@@ -319,18 +352,6 @@
               },
               {
                 "name": "jQuery",
-                "type": "technology"
-              },
-              {
-                "name": "jboss7.x",
-                "type": "technology"
-              },
-              {
-                "name": "maven-3",
-                "type": "technology"
-              },
-              {
-                "name": "phaser-framework",
                 "type": "technology"
               }
             ]
@@ -353,7 +374,7 @@
             ],
             "competences": [
               {
-                "name": "JAVA",
+                "name": "Java",
                 "type": "technology"
               },
               {
@@ -379,7 +400,7 @@
         "publishingDate": "2022-03-04",
         "relatedCompetences": [
           {
-            "name": "JAVA",
+            "name": "Java",
             "type": "technology"
           },
           {
@@ -396,8 +417,8 @@
         "details": {
           "name": "Core Spring - Score: 218/300",
           "image": {
-            "alt": "Title: Core Spring - Score: 218/300",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/04/01/5e2716d9-76e7-4330-b8f4-0dbb0ff4f635_xc4iu.png"
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/04/01/5e2716d9-76e7-4330-b8f4-0dbb0ff4f635_xc4iu.png",
+            "alt": "Title: Core Spring - Score: 218/300"
           }
         },
         "type": "achievement",
@@ -413,8 +434,8 @@
         "details": {
           "name": "Angular - Score: 216/300",
           "image": {
-            "alt": "Title: Angular - Score: 216/300",
-            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/04/01/0a7c453d-200d-4bab-8468-bd4622d9e143_e0wiv.png"
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/22/04/01/0a7c453d-200d-4bab-8468-bd4622d9e143_e0wiv.png",
+            "alt": "Title: Angular - Score: 216/300"
           }
         },
         "type": "achievement",
@@ -431,18 +452,62 @@
   "knowledge": {
     "languages": [
       {
-        "name": "Spanish",
-        "level": "Limited working proficiency"
+        "name": "EN",
+        "fullName": "Inglés",
+        "level": "Full professional proficiency"
       },
       {
-        "name": "English",
-        "level": "Limited working proficiency"
+        "name": "ES",
+        "fullName": "Español",
+        "level": "Native or bilingual proficiency"
       }
     ],
     "hardSkills": [
       {
         "skill": {
           "name": "Angular2+",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Hibernate",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "JPA",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Java",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "JavaScript",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Kotlin",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Linux",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "React",
           "type": "technology"
         }
       },
@@ -460,37 +525,7 @@
       },
       {
         "skill": {
-          "name": "JPA",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "JavaScript",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "JAVA",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
           "name": "TypeScript",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Hibernate",
-          "type": "technology"
-        }
-      },
-      {
-        "skill": {
-          "name": "Linux",
           "type": "technology"
         }
       }
@@ -501,13 +536,13 @@
         "degreeAchieved": true,
         "name": "Sun Java Certificated Developer",
         "startDate": "2007-01-01",
-        "finishDate": "2007-01-01",
         "institution": {
           "name": "Sun Java Certificated Developer"
         },
+        "finishDate": "2007-01-01",
         "linkedCompetences": [
           {
-            "name": "JAVA",
+            "name": "Java",
             "type": "technology"
           }
         ]
@@ -517,11 +552,11 @@
         "degreeAchieved": true,
         "name": "Systems Engineering",
         "startDate": "1996-01-01",
-        "finishDate": "2005-01-01",
         "institution": {
           "name": "Universidad de Málaga (UMA)",
           "description": "I passed all courses. However I did not complete this degree due to the lack of a thesis/Final project"
-        }
+        },
+        "finishDate": "2005-01-01"
       }
     ]
   },
@@ -529,24 +564,12 @@
     "contact": {
       "publicProfiles": [
         {
-          "type": "linkedin",
-          "URL": "https://www.linkedin.com/in/pablolozanof/"
+          "URL": "https://www.linkedin.com/in/pablolozanof/",
+          "type": "linkedin"
         },
         {
-          "type": "stackoverflow",
-          "URL": "https://stackoverflow.com/users/1919228/pablo-lozano"
-        },
-        {
-          "type": "other",
-          "URL": "https://github.com/pawer13"
-        },
-        {
-          "type": "other",
-          "URL": "https://twitter.com/PLoz_"
-        },
-        {
-          "type": "other",
-          "URL": "https://stackoverflow.com/users/1919228/pablo-lozano"
+          "URL": "https://stackoverflow.com/users/1919228/pablo-lozano",
+          "type": "stackoverflow"
         }
       ]
     },
@@ -565,7 +588,7 @@
           "type": "technology"
         },
         {
-          "name": "JAVA",
+          "name": "Java",
           "type": "technology"
         },
         {
@@ -574,10 +597,6 @@
         },
         {
           "name": "Spring Boot",
-          "type": "technology"
-        },
-        {
-          "name": "junit5",
           "type": "technology"
         }
       ],
@@ -592,5 +611,41 @@
       ]
     },
     "status": "notAvailable"
+  },
+  "manfredSpecificData": {
+    "mainStackTechs": [
+      {
+        "name": "Hibernate",
+        "type": "technology"
+      },
+      {
+        "name": "Java",
+        "type": "technology"
+      },
+      {
+        "name": "JavaScript",
+        "type": "technology"
+      },
+      {
+        "name": "Spring Boot",
+        "type": "technology"
+      },
+      {
+        "name": "TypeScript",
+        "type": "technology"
+      }
+    ],
+    "desiredJobDescription": "My ideal job would be:\n- in a medium sized company (20-100 people): if it's too big you cannot know everybody and bureaucracy starts to take a toll; too small and you will miss some resources/roles\n- using up-to-date technology. No need to be cutting-edge, second-to-last is always a safe choice.\n- with an Agile + Clean Code approach: the only way to make things fast is doing them right.\n- creating things (services or products) that improves quality of life to people.\n- focused in the technical part, I have no interest in managing other people.\n- 100% remote but meeting the team every other month in person (taking advance of refining meetings, retrospectives or a team building activity)\n",
+    "bookmarks": [
+      {
+        "name": "Design Patterns: Elements of Reusable Object-Oriented Software"
+      },
+      {
+        "name": "Secrets of the JavaScript Ninja"
+      },
+      {
+        "name": "Why we should stop using Grunt & Gulp"
+      }
+    ]
   }
 }
