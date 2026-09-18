@@ -596,10 +596,6 @@
           "type": "technology"
         },
         {
-          "name": "React",
-          "type": "technology"
-        },
-        {
           "name": "Spring Boot",
           "type": "technology"
         }
