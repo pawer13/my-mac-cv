@@ -576,10 +576,6 @@
     "preferences": {
       "preferredCompetences": [
         {
-          "name": "Angular2+",
-          "type": "technology"
-        },
-        {
           "name": "Docker",
           "type": "technology"
         },
